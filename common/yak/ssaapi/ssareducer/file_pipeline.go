@@ -20,7 +20,7 @@ const (
 	ReverseOrder
 )
 
-const maxFileSize = 5 * 1024 * 1024 // 5MB
+const maxFileSize = 20 * 1024 * 1024 // 20MB
 
 type FileHandler func(path string, content []byte)
 
